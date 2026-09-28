@@ -4,7 +4,7 @@ Parameterized Bash scripts used for the genomic characterization of the
 *Mycolicibacterium fortuitum* complex from post-surgical non-tuberculous
 mycobacteria (NTM) isolates in Ecuador.
 
-> **Associated publication.** [[Authors]]. [[Year]]. [[Title]]. *Microbiology Spectrum* [[volume/DOI — update on acceptance]].
+> **Associated publication.** [Ángel Sebastián Rodríguez-Pazmiño1, Henry Parra-Vera2, Greta Franco-Sotomayor3, Miguel Ángel García-Bereguiain1]. [2026]. [Genomic characterization of the Mycolicibacterium fortuitum complex from post-surgical infections in Ecuador reveals a clonal Mycolicibacterium houstonense/farcinogenes cluster]. *Microbiology Spectrum* [[volume/DOI — update on acceptance]].
 > **Raw reads.** NCBI BioProject **PRJNA1524051** (per-isolate BioSample/SRA accessions in the paper's Supplementary Table).
 > **Genome assemblies.** [[accessions — to be added upon deposition]].
 
