@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these scripts, please cite the associated article and this archived repository."
+title: "NTM Mycolicibacterium fortuitum complex genomics pipeline"
+version: "1.0.0"
+date-released: "[[YYYY-MM-DD]]"
+license: MIT
+authors:
+  - family-names: "Rodríguez-Pazmiño"
+    given-names: "Ángel Sebastián"
+  - name: "[[co-authors — complete]]"
+identifiers:
+  - type: doi
+    value: "[[Zenodo DOI — added on deposit]]"
+repository-code: "[[https://github.com/<user>/ntm-fortuitum-pipeline]]"
+keywords:
+  - non-tuberculous mycobacteria
+  - Mycolicibacterium fortuitum complex
+  - whole-genome sequencing
+  - Ecuador
+preferred-citation:
+  type: article
+  title: "[[Manuscript title]]"
+  journal: "Microbiology Spectrum"
+  year: [[YEAR]]
+  doi: "[[article DOI]]"
+  authors:
+    - family-names: "Rodríguez-Pazmiño"
+      given-names: "Ángel Sebastián"
+    - name: "[[co-authors — complete]]"

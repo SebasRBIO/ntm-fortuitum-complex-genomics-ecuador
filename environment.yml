@@ -1,0 +1,45 @@
+# Conda/Bioconda environment for the NTM M. fortuitum complex pipeline.
+# Create with:  conda env create -f environment.yml
+# IMPORTANT: pin each package to the exact version reported in the manuscript
+#            Methods before archiving (replace 'x.y.z').
+name: ntm-fortuitum
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python >=3.9
+  # read QC and assembly
+  - fastp            # =x.y.z
+  - shovill          # =x.y.z
+  - spades           # =x.y.z
+  - seqkit           # =x.y.z
+  # taxonomic classification (read-level)
+  - kraken2          # =x.y.z
+  - krakentools      # =x.y.z
+  # ANI / species / quality
+  - fastani          # =x.y.z
+  - checkm-genome    # CheckM v1  =x.y.z
+  - checkm2          # =x.y.z
+  - ncbi-datasets-cli# =x.y.z
+  - ntm-profiler     # =x.y.z
+  - mash             # =x.y.z
+  # annotation and resistome
+  - bakta            # =x.y.z
+  - prokka           # =x.y.z
+  - ncbi-amrfinderplus # =x.y.z
+  - abricate         # =x.y.z
+  - blast            # =x.y.z
+  - barrnap          # =x.y.z
+  # SNPs
+  - snippy           # =x.y.z
+  - snp-dists        # =x.y.z
+  - snp-sites        # =x.y.z
+  # pangenome and phylogenetics
+  - panaroo          # =x.y.z
+  - roary            # optional alternative to Panaroo  =x.y.z
+  - iqtree           # =x.y.z
+# Not installable via conda / used separately:
+#   - Illumina DRAGEN Metagenomics pipeline (BaseSpace)  [version]
+#   - TYGS  (https://tygs.dsmz.de)  [web service; access date]
+#   - Downloadable databases: Bakta DB, CheckM2 DB, Kraken2 DB, NTM-Profiler DB
