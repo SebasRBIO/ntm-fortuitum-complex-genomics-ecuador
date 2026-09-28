@@ -62,9 +62,7 @@ Every script prints full help with `-h`, e.g.:
 
 ## AI-use disclosure
 
-Per the ASM Generative AI Policy, the authors disclose that AI tools were used to
-assist in drafting and reviewing these scripts and the associated manuscript;
-all code and results were verified by the authors. [[Adjust to your final wording.]]
+In accordance with the ASM Generative AI Policy, the authors disclose that a generative AI assistant (Anthropic Claude) was used to help draft, review, and debug the analysis scripts in this repository. All scripts were designed, executed, inspected, and validated by the authors, who take full responsibility for the code and for the results reported in the associated publication.
 
 ## License
 
